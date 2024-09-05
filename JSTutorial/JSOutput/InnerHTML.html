@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inner HTML</title>
+  </head>
+  <body>
+    <!--
+    JavaScript can "display" data in different ways:
+    * Writing into an HTML element, using InnerHTML
+    * Writing into an HTML output, using document.Write()
+    * Writing into an alert bot, using window.alert()
+    * Writing into a browser console, using console.log()
+    -->
+
+    <h2>My First Web Page</h2>
+    <p>My First Paragraph.</p>
+
+    <p id="demo"></p>
+
+    <script>
+      document.getElementById("demo").innerHTML = 5 + 6;
+    </script>
+  </body>
+</html>
