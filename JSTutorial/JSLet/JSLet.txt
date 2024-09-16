@@ -1,0 +1,37 @@
+let:
+Variables declared with let have Block Scope
+Variables declared with let must be Declared before use
+Variables declared with let cannot be Redeclared in the same scope
+
+Variables declared inside a { } block cannot be accessed from outside the block:
+{
+  let x = 2;
+}
+// x can NOT be used here
+
+Global Scope
+Variables declared with the var always have Global Scope.
+Variables declared with the var keyword can NOT have block scope.
+{
+  var x = 2;
+}
+// x CAN be used here
+
+Cannot be Redeclared
+Variables defined with let can not be redeclared.
+You can not accidentally redeclare a variable declared with let.
+With let you can not do this:
+let x = "John Doe";
+
+let x = 0;
+
+Cannot be Redeclared
+Variables defined with let can not be redeclared.
+
+You can not accidentally redeclare a variable declared with let.
+
+With let you can not do this:
+let x = "John Doe";
+
+let x = 0;
+
