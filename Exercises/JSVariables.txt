@@ -1,0 +1,14 @@
+1 - let carName = "Volvo";
+
+2 - let x = 50;
+
+3 - let x = 5;
+    let y = 10;
+    document.getElementById("demo").innerHTML = x + y;
+
+4 - let x = 5;
+    let y = 10;
+    let z = x + y;
+    alert(z);
+
+5 - let firstName = "John", lastName = "Doe", age = 35;
